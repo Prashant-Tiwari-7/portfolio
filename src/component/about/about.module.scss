@@ -1,0 +1,75 @@
+.aboutDv{
+    background-image: url('../../../public/img/sideBg.jpg');
+    background-repeat: no-repeat;
+    // background-color: black;
+    height: calc(100vh);
+}
+.title h3{
+    margin: 94px 0 0 !important;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 !important;
+    font-weight: 700;
+}
+.title h2{
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 8px 8px 0 0 !important;
+    padding: 0 !important;
+}
+.title>p{
+    font-style: italic;
+    margin: 20px px 0 0 !important;
+    padding: 0 !important;
+}
+.title p a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid;
+    user-select: none;
+}
+.btmline{
+    width: 93%;
+    transform-origin: left center;
+    margin: 34px auto 34px 0;
+    opacity: 0.3;
+    stroke: none;
+    border: 1px solid #c0bdc4;
+}
+.left>p{
+    line-height: 2.2;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.right>p{
+    line-height: 2.2;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.btn{
+    letter-spacing: 1px;
+    text-shadow: 0 0 0 rgb(0 0 0 / 0%);
+    font-size: 1.125rem;
+    font-weight: 700;
+    width: 366px;
+    height: 58px;
+    margin: 34px auto 0 0;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.profileImage{
+    background-image: url('/img/profilePic.jpg');
+    background-repeat: no-repeat;
+    height: calc(100vh - 80px);
+    background-size: cover;
+    // height: 100%;
+    // width: 800px;
+    // right: 0;
+}
