@@ -2,6 +2,8 @@
 
 <---Getting Started--->
 
+<---Use yarn to install the dependencies--->
+
 => First, run the development server:
 
 ```bash
